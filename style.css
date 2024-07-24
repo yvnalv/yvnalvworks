@@ -7,6 +7,11 @@ body {
     color: #F0ECE2;
 }
 
+.dark-navy-bg {
+  background-color: #262733;
+  color: #F0ECE2;
+}
+
 .text-white {
     color: #F0ECE2;
 }
@@ -20,18 +25,28 @@ body {
     
   }
 
+.services-section {
+  display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 160px;
+    height: 100vh;
+}
+
 .logo-color {
     color: #ECBF7B;
 }
 
 .logo-pic {
-    height: 100px;
+    height: 220px;
     width: auto;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
 }
 
-
-
+.yellow-font {
+  color:#FFBD59;
+}
 
 
 

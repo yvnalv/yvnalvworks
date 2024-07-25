@@ -1,9 +1,10 @@
 body {
     font-family: "Poppins", sans-serif;
+    color: #F0ECE2;
 }
 
 .navy-bg {
-    background-color: #343647;
+    background-color: #2B3035;
     color: #F0ECE2;
 }
 
@@ -21,17 +22,26 @@ body {
     align-items: start;
     justify-content: end;
     gap: 2rem;
-    margin-bottom: 160px;
+    margin-bottom: 140px;
     
-  }
+}
 
 .services-section {
   display: flex;
-    align-items: start;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 160px;
-    height: 100vh;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+  /* margin-bottom: 160px; */
+  height: 700px;
+}
+
+.services-link {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+  /* margin-bottom: 160px; */
+  /* height: 100vh; */
 }
 
 .logo-color {
@@ -48,6 +58,13 @@ body {
   color:#FFBD59;
 }
 
+.services-item {
+  color: #F0ECE2;
+}
+
+.services-item:hover {
+  color:black;
+}
 
 
 

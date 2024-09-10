@@ -1,12 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    color: #F0ECE2;
 }
-h1 {
-    color: #333;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;  /* Semi-bold */
+    color: #F0ECE2;
 }
-a {
-    text-decoration: none;
-    color: #007bff;
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;  /* Normal */
+}
+
+#iconworks {
+    color: #03DAC6;
+}
+
+img #profile-pic {
+    
 }

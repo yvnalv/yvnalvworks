@@ -19,6 +19,30 @@ p {
     color: #03DAC6;
 }
 
-img #profile-pic {
+/* img #profile-pic {
     
+} */
+
+.font-white {
+    color:#F0ECE2;
+}
+
+.font-white:hover {
+    color: #03DAC6;
+}
+
+.font-white.active {
+    color: #03DAC6;
+}
+
+.font-green {
+    color: #03DAC6;
+}
+
+.lets-talk-button {
+    border-radius: 10px;
+    background-color: #BB86FC;
+    color:#121212;
+    border: none;
+    font-weight: bold;
 }

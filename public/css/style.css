@@ -46,3 +46,12 @@ p {
     border: none;
     font-weight: bold;
 }
+
+.card-services {
+    background-color: #F0ECE2;
+    border: solid 4px #BB86FC;
+}
+
+.custom-navbar {
+    background-color: #121212;
+}

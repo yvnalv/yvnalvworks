@@ -50,8 +50,37 @@ p {
 .card-services {
     background-color: #F0ECE2;
     border: solid 4px #BB86FC;
+    width: 80%;
+    height: 80px;
+}
+
+.card-portfolio {
+    background-color: rgba(240, 236, 226, 0.1); /* 90% transparent background */
+    border: solid 4px #BB86FC;
+    width: 80%;
+    height: 400px;
+    color: #F0ECE2;
+}
+
+.portfolio-icon {
+    font-size: 16px; /* Adjust the icon size */
+    color: #03DAC6;
+}
+
+.font-turqoise {
+    color: #03DAC6;
 }
 
 .custom-navbar {
     background-color: #121212;
+}
+
+.custom-heroes {
+    margin-top: 100px;
+}
+
+
+.label-text {
+    font-size: 12px; /* Smaller text for label */
+    font-weight: bold; /* Optional: bold text */
 }

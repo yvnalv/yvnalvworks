@@ -1,13 +1,13 @@
 body {
-    background-color: #121212;
+    background-color: #161616;
     font-family: 'Poppins', sans-serif;
-    color: #F0ECE2;
+    color: #D9D9D9;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;  /* Semi-bold */
-    color: #F0ECE2;
+    color: #D9D9D9;
 }
 
 p {
@@ -24,7 +24,7 @@ p {
 } */
 
 .font-white {
-    color:#F0ECE2;
+    color:#D9D9D9;
 }
 
 .font-white:hover {
@@ -40,15 +40,26 @@ p {
 }
 
 .lets-talk-button {
-    border-radius: 10px;
-    background-color: #BB86FC;
+    border-radius: 4px;
+    background-color: #DCF763;
     color:#121212;
     border: none;
     font-weight: bold;
+    padding: 6px 14px;
+}
+
+.project-button {
+    border-radius: 4px;
+    background-color: #DCF763;
+    color:#121212;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 20%;
 }
 
 .card-services {
-    background-color: #F0ECE2;
+    background-color: #D9D9D9;
     border: solid 4px #BB86FC;
     width: 80%;
     height: 80px;
@@ -71,8 +82,12 @@ p {
     color: #03DAC6;
 }
 
+.font-yellow {
+    color: #DCF763;
+}
+
 .custom-navbar {
-    background-color: #121212;
+    background-color: #161616;
 }
 
 .custom-heroes {

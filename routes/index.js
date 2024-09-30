@@ -5,15 +5,15 @@ const router = express.Router();
 
 // Define routes
 router.get('/', (req, res) => {
-    res.render('index', { title: 'Home' });
+    res.render('index');
 });
 
 router.get('/about', (req, res) => {
-    res.render('about', { title: 'Aboute Me' });
+    res.render('about');
 });
 
-router.get('/project', (req, res) => {
-    res.render('project', { title: 'Projects' });
+router.get('/resume', (req, res) => {
+    res.render('resume');
 });
 
 //Export the router to be used in other files

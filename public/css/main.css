@@ -109,6 +109,8 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+
+
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
@@ -248,6 +250,10 @@ h6 {
     left: -100%;
     visibility: visible;
   }
+
+  .sitename {
+    font-family: "Lexend", sans-serif;    
+  }
 }
 
 /* Mobile Navigation */
@@ -373,6 +379,10 @@ h6 {
 
   .mobile-nav-active .navmenu>ul {
     display: block;
+  }
+
+  .sitename {
+    font-family: "Lexend", sans-serif;
   }
 }
 
@@ -1420,4 +1430,11 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+#yvnalvworks-title {
+  font-family: "Lexend", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal; */
 }

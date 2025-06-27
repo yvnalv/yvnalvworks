@@ -23,7 +23,7 @@ app.use(express.static('public'));
 app.use('/', routes);
 
 // Start the server
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 80;
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
